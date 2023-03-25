@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="../../header/style/style.css">
+    <link rel="stylesheet" href="../../калькулятор 2/style/style.css">
+</head>
+<body>
+    <header>
+        <div class="All_header_menu">
+            <div class="Logo">
+                <h1>XolodiLda</h1>
+            </div>
+            <div class="Top_menu">
+                <ul>
+                    <li><a href="../слайдер/index.html">Слайдер</a></li>
+                    <li><a href="index.html">Калькулятор</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main><div class="calculator">
+
+        <input type="text" class="screen" id="screen" placeholder="0">
+
+        <button class="op" onclick="wipe()">AC</button>
+        <button class="op" onclick="wipe()">C</button>
+        <button class="op" onclick="show('/')">/</button>
+        <button class="symbol" onclick="show('*')">*</button>
+
+        <button class="number" onclick="show('7')">7</button>
+        <button class="number" onclick="show('8')">8</button>
+        <button class="number" onclick="show('9')">9</button>
+        <button class="symbol" onclick="show('-')">-</button>
+
+        <button class="number" onclick="show('4')">4</button>
+        <button class="number" onclick="show('5')">5</button>
+        <button class="number" onclick="show('6')">6</button>
+        <button class="symbol" onclick="show('+')">+</button>
+
+        <button class="number" onclick="show('1')">1</button>
+        <button class="number" onclick="show('2')">2</button>
+        <button class="number" onclick="show('3')">3</button>
+        <button class="symbol" onclick="show('.')">.</button>
+
+        <button class="number" onclick="show('(')">(</button>
+        <button class="number" onclick="show('0')">0</button>
+        <button class="number" onclick="show(')')">)</button>
+        <button class="symbol" onclick="calc('=')">=</button>
+    </div>
+    <script src="../../калькулятор 2/js/script.js"></script></main>
+</body>
+</html>
